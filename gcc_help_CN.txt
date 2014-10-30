@@ -1,13 +1,12 @@
 用法：gcc.exe [选项] 文件...
-Options:
 选项：
-  -pass-exit-codes         Exit with highest error code from a phase
-  --help                   Display this information
-  --target-help            Display target specific command line options
+  -pass-exit-codes         退出并返回上个阶段最高的错误
+  --help                   显示该帮助信息
+  --target-help            显示特定目标的命令行选项
   --help={common|optimizers|params|target|warnings|[^]{joined|separate|undocumented}}[,...]
                            Display specific types of command line options
   (Use '-v --help' to display command line options of sub-processes)
-  --version                Display compiler version information
+  --version                显示编译器的版本信息
   -dumpspecs               Display all of the built in spec strings
   -dumpversion             Display the version of the compiler
   -dumpmachine             Display the compiler's target processor
@@ -42,10 +41,10 @@ Options:
   -B <directory>           Add <directory> to the compiler's search paths
   -v                       Display the programs invoked by the compiler
   -###                     Like -v but options quoted and commands not executed
-  -E                       Preprocess only; do not compile, assemble or link
-  -S                       Compile only; do not assemble or link
-  -c                       Compile and assemble, but do not link
-  -o <file>                Place the output into <file>
+  -E                       只进行预编译，不编译、汇编、连接
+  -S                       将源码翻译成汇编代码
+  -c                       将源码编译成二进制目标文件但不连接
+  -o <file>                将输出文件定位为<file>
   -pie                     Create a position independent executable
   -shared                  Create a shared library
   -x <language>            Specify the language of the following input files
