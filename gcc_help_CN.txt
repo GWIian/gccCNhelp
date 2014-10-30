@@ -38,15 +38,15 @@
   -std=<standard>          Assume that the input sources are for <standard>
   --sysroot=<directory>    Use <directory> as the root directory for headers
                            and libraries
-  -B <directory>           Add <directory> to the compiler's search paths
+  -B <目录>                加入路径<目录>到编译器的搜索路径
   -v                       Display the programs invoked by the compiler
   -###                     Like -v but options quoted and commands not executed
   -E                       只进行预编译，不编译、汇编、连接
   -S                       将源码翻译成汇编代码
   -c                       将源码编译成二进制目标文件但不连接
-  -o <file>                将输出文件定位为<file>
+  -o <文件路径名称>        将输出文件定位为<文件路径名称>
   -pie                     Create a position independent executable
-  -shared                  Create a shared library
+  -shared                  创建一个共享库（Windows下为动态库）
   -x <language>            Specify the language of the following input files
                            Permissible languages include: c c++ assembler none
                            'none' means revert to the default behavior of
