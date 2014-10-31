@@ -45,7 +45,7 @@
   -S                       将源码翻译成汇编代码
   -c                       将源码编译成二进制目标文件但不连接
   -o <文件路径名称>        将输出文件定位为<文件路径名称>
-  -pie                     Create a position independent executable
+  -pie                     创建一个内存装载地址随机（位置无关）的可执行程序
   -shared                  创建一个共享库（Windows下为动态库）
   -x <language>            Specify the language of the following input files
                            Permissible languages include: c c++ assembler none
@@ -56,5 +56,5 @@ Options starting with -g, -f, -m, -O, -W, or --param are automatically
  passed on to the various sub-processes invoked by gcc.exe.  In order to pass
  other options on to these processes the -W<letter> options must be used.
 
-For bug reporting instructions, please see:
+查询漏洞报告指令，请参考下面的网址：
 <http://gcc.gnu.org/bugs.html>.
