@@ -1,12 +1,12 @@
-ç”¨æ³•ï¼šgcc.exe [é€‰é¡¹] æ–‡ä»¶...
-é€‰é¡¹ï¼š
-  -pass-exit-codes         é€€å‡ºå¹¶è¿”å›ä¸Šä¸ªé˜¶æ®µæœ€é«˜çš„é”™è¯¯
-  --help                   æ˜¾ç¤ºè¯¥å¸®åŠ©ä¿¡æ¯
-  --target-help            æ˜¾ç¤ºç‰¹å®šç›®æ ‡çš„å‘½ä»¤è¡Œé€‰é¡¹
+ÓÃ·¨£ºgcc.exe [Ñ¡Ïî] ÎÄ¼ş...
+Ñ¡Ïî£º
+  -pass-exit-codes         ÍË³ö²¢·µ»ØÉÏ¸ö½×¶Î×î¸ßµÄ´íÎó
+  --help                   ÏÔÊ¾¸Ã°ïÖúĞÅÏ¢
+  --target-help            ÏÔÊ¾ÌØ¶¨Ä¿±êµÄÃüÁîĞĞÑ¡Ïî
   --help={common|optimizers|params|target|warnings|[^]{joined|separate|undocumented}}[,...]
                            Display specific types of command line options
   (Use '-v --help' to display command line options of sub-processes)
-  --version                æ˜¾ç¤ºç¼–è¯‘å™¨çš„ç‰ˆæœ¬ä¿¡æ¯
+  --version                ÏÔÊ¾±àÒëÆ÷µÄ°æ±¾ĞÅÏ¢
   -dumpspecs               Display all of the built in spec strings
   -dumpversion             Display the version of the compiler
   -dumpmachine             Display the compiler's target processor
@@ -38,15 +38,15 @@
   -std=<standard>          Assume that the input sources are for <standard>
   --sysroot=<directory>    Use <directory> as the root directory for headers
                            and libraries
-  -B <ç›®å½•>                åŠ å…¥è·¯å¾„<ç›®å½•>åˆ°ç¼–è¯‘å™¨çš„æœç´¢è·¯å¾„
+  -B <Ä¿Â¼>                ¼ÓÈëÂ·¾¶<Ä¿Â¼>µ½±àÒëÆ÷µÄËÑË÷Â·¾¶
   -v                       Display the programs invoked by the compiler
   -###                     Like -v but options quoted and commands not executed
-  -E                       åªè¿›è¡Œé¢„ç¼–è¯‘ï¼Œä¸ç¼–è¯‘ã€æ±‡ç¼–ã€è¿æ¥
-  -S                       å°†æºç ç¿»è¯‘æˆæ±‡ç¼–ä»£ç 
-  -c                       å°†æºç ç¼–è¯‘æˆäºŒè¿›åˆ¶ç›®æ ‡æ–‡ä»¶ä½†ä¸è¿æ¥
-  -o <æ–‡ä»¶è·¯å¾„åç§°>        å°†è¾“å‡ºæ–‡ä»¶å®šä½ä¸º<æ–‡ä»¶è·¯å¾„åç§°>
-  -pie                     åˆ›å»ºä¸€ä¸ªå†…å­˜è£…è½½åœ°å€éšæœºï¼ˆä½ç½®æ— å…³ï¼‰çš„å¯æ‰§è¡Œç¨‹åº
-  -shared                  åˆ›å»ºä¸€ä¸ªå…±äº«åº“ï¼ˆWindowsä¸‹ä¸ºåŠ¨æ€åº“ï¼‰
+  -E                       Ö»½øĞĞÔ¤±àÒë£¬²»±àÒë¡¢»ã±à¡¢Á¬½Ó
+  -S                       ½«Ô´Âë·­Òë³É»ã±à´úÂë
+  -c                       ½«Ô´Âë±àÒë³É¶ş½øÖÆÄ¿±êÎÄ¼şµ«²»Á¬½Ó
+  -o <ÎÄ¼şÂ·¾¶Ãû³Æ>        ½«Êä³öÎÄ¼ş¶¨Î»Îª<ÎÄ¼şÂ·¾¶Ãû³Æ>
+  -pie                     ´´½¨Ò»¸öÄÚ´æ×°ÔØµØÖ·Ëæ»ú£¨Î»ÖÃÎŞ¹Ø£©µÄ¿ÉÖ´ĞĞ³ÌĞò
+  -shared                  ´´½¨Ò»¸ö¹²Ïí¿â£¨WindowsÏÂÎª¶¯Ì¬¿â£©
   -x <language>            Specify the language of the following input files
                            Permissible languages include: c c++ assembler none
                            'none' means revert to the default behavior of
@@ -56,5 +56,5 @@ Options starting with -g, -f, -m, -O, -W, or --param are automatically
  passed on to the various sub-processes invoked by gcc.exe.  In order to pass
  other options on to these processes the -W<letter> options must be used.
 
-æŸ¥è¯¢æ¼æ´æŠ¥å‘ŠæŒ‡ä»¤ï¼Œè¯·å‚è€ƒä¸‹é¢çš„ç½‘å€ï¼š
+²éÑ¯Â©¶´±¨¸æÖ¸Áî£¬Çë²Î¿¼ÏÂÃæµÄÍøÖ·£º
 <http://gcc.gnu.org/bugs.html>.
